@@ -1,0 +1,37 @@
+.primero{
+  background-color: #82c3a6;
+  text-align: center;
+}
+.imagen1{
+  width: 40%;
+  height: 40%;
+}
+.segundo{
+  background-color: #d5c75f;
+}
+.imagen2,.imagen3{
+  width: 75%;
+  height: 80%;
+  box-shadow: 2px 2px 2px black;
+}
+.contenedor2{
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  color: black;
+  padding:50px 0 40px 0;
+}
+.imagen1:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+.imagen2:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+@media (max-width:600px) {
+  .contenedor2{
+    display: flex;
+    flex-direction:column;
+  }
+}
